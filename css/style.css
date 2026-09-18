@@ -321,11 +321,9 @@ button {
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 77% 43%,
+        radial-gradient(circle at 77% 43%,
             rgba(116, 80, 255, 0.08),
-            transparent 28%
-        ),
+            transparent 28%),
         var(--white);
 }
 
@@ -475,14 +473,14 @@ button {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.hero-values > div {
+.hero-values>div {
     position: relative;
 
     display: flex;
     flex-direction: column;
 }
 
-.hero-values > div:not(:last-child)::after {
+.hero-values>div:not(:last-child)::after {
     content: "";
 
     width: 1px;
@@ -606,7 +604,7 @@ button {
     font-weight: 700;
 }
 
-.dashboard-brand > div:last-child {
+.dashboard-brand>div:last-child {
     display: flex;
     flex-direction: column;
 }
@@ -742,7 +740,7 @@ button {
     gap: 8px;
 }
 
-.chart-bars > div {
+.chart-bars>div {
     height: 100%;
 
     flex: 1;
@@ -763,11 +761,9 @@ button {
     border-radius: 5px 5px 1px 1px;
 
     background:
-        linear-gradient(
-            180deg,
+        linear-gradient(180deg,
             #ae95ff 0%,
-            var(--purple) 100%
-        );
+            var(--purple) 100%);
 
     box-shadow:
         0 5px 12px rgba(116, 80, 255, 0.12);
@@ -864,7 +860,7 @@ button {
     font-size: 10px;
 }
 
-.floating-card > div:last-child {
+.floating-card>div:last-child {
     display: flex;
     flex-direction: column;
 }
@@ -929,7 +925,7 @@ button {
     font-size: 7px;
 }
 
-.focus-card > div:last-child {
+.focus-card>div:last-child {
     display: flex;
     flex-direction: column;
 }
@@ -1115,11 +1111,9 @@ button {
     border-color: #cfc3ff;
 
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #ffffff,
-            #f7f4ff
-        );
+            #f7f4ff);
 
     box-shadow:
         0 13px 35px rgba(76, 53, 151, 0.08);
@@ -1133,7 +1127,7 @@ button {
     justify-content: space-between;
 }
 
-.service-top > span {
+.service-top>span {
     color: #b0b0b8;
 
     font-size: 7px;
@@ -1165,7 +1159,7 @@ button {
     letter-spacing: -0.8px;
 }
 
-.service-card > p {
+.service-card>p {
     max-width: 220px;
 
     margin-top: 10px;
@@ -1199,11 +1193,9 @@ button {
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 77% 45%,
+        radial-gradient(circle at 77% 45%,
             rgba(116, 80, 255, 0.07),
-            transparent 25%
-        ),
+            transparent 25%),
         #fcfcfe;
 }
 
@@ -1334,16 +1326,12 @@ button {
     border-radius: 23px;
 
     background:
-        radial-gradient(
-            circle at 90% 10%,
+        radial-gradient(circle at 90% 10%,
             #7450ff,
-            transparent 28%
-        ),
-        linear-gradient(
-            145deg,
+            transparent 28%),
+        linear-gradient(145deg,
             #191721,
-            #0f1015
-        );
+            #0f1015);
 
     color: var(--white);
 
@@ -1366,7 +1354,7 @@ button {
     gap: 8px;
 }
 
-.board-brand > span {
+.board-brand>span {
     width: 29px;
     height: 29px;
 
@@ -1406,7 +1394,7 @@ button {
     margin-top: 45px;
 }
 
-.board-heading > span {
+.board-heading>span {
     color: var(--purple-light);
 
     font-size: 6px;
@@ -1444,7 +1432,7 @@ button {
     gap: 10px;
 }
 
-.board-progress > div {
+.board-progress>div {
     display: grid;
     grid-template-columns: 62px 1fr;
 
@@ -1477,11 +1465,9 @@ button {
     border-radius: inherit;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             var(--purple),
-            var(--purple-light)
-        );
+            var(--purple-light));
 }
 
 
@@ -1509,7 +1495,7 @@ button {
         0 12px 28px rgba(38, 29, 72, 0.09);
 }
 
-.strategy-float > div {
+.strategy-float>div {
     width: 27px;
     height: 27px;
 
@@ -1524,7 +1510,7 @@ button {
     font-size: 8px;
 }
 
-.strategy-float > span {
+.strategy-float>span {
     display: flex;
     flex-direction: column;
 }
@@ -1572,17 +1558,15 @@ button {
     border-radius: 15px;
 
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #f0ebff,
-            #dcd1ff
-        );
+            #dcd1ff);
 
     box-shadow:
         0 10px 28px rgba(38, 29, 72, 0.09);
 }
 
-.mini-board > span {
+.mini-board>span {
     color: var(--purple);
 
     font-size: 5px;
@@ -1836,11 +1820,9 @@ button {
 
 .beauty-art {
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #f7f3ff,
-            #e8ddff
-        );
+            #e8ddff);
 
     color: #5d3bd0;
 }
@@ -1875,11 +1857,9 @@ button {
 
 .fashion-art {
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #1a1820,
-            #0e0f13
-        );
+            #0e0f13);
 
     color: var(--white);
 }
@@ -1917,11 +1897,9 @@ button {
 
 .ecommerce-art {
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #f4f1ff,
-            #ebe6ff
-        );
+            #ebe6ff);
 
     color: var(--black);
 }
@@ -1978,11 +1956,9 @@ button {
 
 .fitness-art {
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #7955ff,
-            #9b82ff
-        );
+            #9b82ff);
 
     color: var(--white);
 }
@@ -2053,7 +2029,7 @@ button {
     font-size: 7px;
 }
 
-.work-info > span {
+.work-info>span {
     color: var(--purple);
 
     font-size: 11px;
@@ -2090,11 +2066,9 @@ button {
     border-radius: 19px;
 
     background:
-        radial-gradient(
-            circle at 5% 50%,
+        radial-gradient(circle at 5% 50%,
             rgba(116, 80, 255, 0.06),
-            transparent 25%
-        ),
+            transparent 25%),
         var(--white);
 }
 
@@ -2114,7 +2088,7 @@ button {
     color: var(--purple);
 }
 
-.capability-copy > p {
+.capability-copy>p {
     max-width: 370px;
 
     margin-top: 12px;
@@ -2146,7 +2120,7 @@ button {
     background: var(--white);
 }
 
-.capability-card > span {
+.capability-card>span {
     color: #a7a7b0;
 
     font-size: 6px;
@@ -2189,16 +2163,14 @@ button {
     border-color: var(--purple);
 
     background:
-        linear-gradient(
-            145deg,
+        linear-gradient(145deg,
             #7954ff,
-            #6540eb
-        );
+            #6540eb);
 
     color: var(--white);
 }
 
-.purple-cap > span,
+.purple-cap>span,
 .purple-cap p {
     color: rgba(255, 255, 255, 0.65);
 }
@@ -2243,11 +2215,9 @@ button {
     border-radius: 20px;
 
     background:
-        linear-gradient(
-            120deg,
+        linear-gradient(120deg,
             #fbfaff,
-            #f0ebff
-        );
+            #f0ebff);
 }
 
 .cta-copy,
@@ -2436,4 +2406,28 @@ button {
 
 .footer-bottom a:hover {
     color: var(--purple);
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.footer-contact a {
+    color: #747681;
+    font-size: 8px;
+    transition: 0.2s ease;
+}
+
+.footer-contact a:hover {
+    color: #7450ff;
+}
+
+@media (max-width: 800px) {
+    .footer-contact {
+        align-items: center;
+        text-align: center;
+    }
 }
